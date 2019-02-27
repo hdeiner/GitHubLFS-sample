@@ -15,10 +15,9 @@ $ git lfs track "*.mp4"
 (Where *.mp4 is the pattern of filenames that you wish to track.)
 
 $ git add .gitattributes
-$ git commit -m "track *.mp4 files using Git LFS"
-
-$ git add *.mp4
-$ git commit -m "add mp4 file"
+$ git add 2019.01.31 Chantilly Hackathon 2019! Recap.mp4
+$ git add readme.md
+$ git commit -m "Tracking mp4 files with Git LFS"
 
 Now, when you push, things will be fine again.
 
